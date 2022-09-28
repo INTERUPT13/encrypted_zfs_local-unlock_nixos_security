@@ -6,7 +6,7 @@
       # Or disable the firewall altogether.
 
       boot.initrd.network = {
-        post.commands = "/bin/sh";
+        postCommands = "/bin/sh";
 
       };
 

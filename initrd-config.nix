@@ -5,7 +5,7 @@
       # networking.firewall.allowedUDPPorts = [ ... ];
       # Or disable the firewall altogether.
 
-      boot.initrd = 
+      boot.initrd = {
         preFailCommands = "/bin/sh";
         postDeviceCommands = "/bin/sh";
         network = {
